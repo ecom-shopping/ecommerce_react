@@ -5,10 +5,7 @@ function Cart() {
     <section>
       <div className="Cartpage">
         <h1>YOUR BAG</h1>
-        <div className="Cartbottom">
-            
-        </div>
-        
+        <div className="Cartbottom"></div>
       </div>
     </section>
   );
