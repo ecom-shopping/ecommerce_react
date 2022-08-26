@@ -1,0 +1,44 @@
+.newsletter-container {
+    height: 60vh;
+    display: flex;
+    background: #fcf5f5;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.news_title {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.news_desc {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: lightgray 1.5 solid;
+    width: 50%;
+    height: 40px;
+    background: #fff;
+}
+
+.news_input input {
+    border: none;
+    padding: 9px;
+    flex: 8;
+
+}
+
+.news_input button {
+    flex: 1;
+    padding-top: 5px;
+    margin: auto;
+    background: teal;
+    color: #fcf5f5;
+    border: teal solid;
+}
