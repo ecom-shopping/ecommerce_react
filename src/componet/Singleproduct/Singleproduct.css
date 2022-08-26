@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.singleProduct {
+  display: flex;
+
+  padding: 50px;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+.productImg {
+  flex: 1;
+  background-color: #dde5e8;
+}
+.productImg img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+}
+.productcon {
+  flex: 1;
+  padding: 0px 50px;
+}
+.productcon h1 {
+  font-weight: 200;
+}
+.productcon p {
+  margin: 20px 0;
+}
+.productcon span {
+  font-weight: 100;
+  font-size: 40px;
+}
+.filterColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
+.filterContainer {
+  display: flex;
+  margin-top: 5%;
+}
+.filterContainer h3 {
+  font-weight: 200;
+  font-size: 20px;
+}
+.selectSize {
+  margin-left: 10%;
+  outline: none;
+  border: none;
+}
+.selectSize span {
+  font-size: 20px;
+}
+.selectSize select {
+  margin-left: 10px;
+  padding: 5px;
+  outline: none;
+}
+.AddContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 5px 0px 5px;
+}
+.AmountContainer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.AmountContainer span {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.Addbutton button {
+  padding: 15px;
+  border: 2px solid teal;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500px;
+}
+.Addbutton :hover {
+  background-color: #f8f4f4;
+}
